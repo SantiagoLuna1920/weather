@@ -4,6 +4,7 @@ import { faTemperatureLow, faWind, faCloud } from '@fortawesome/free-solid-svg-i
 
 export const WeatherLoots = ( { city, clouds, country, description, icon, wind, pressure, temp } ) => {
 
+
 const [temps, settemps] = useState({
 data: [temp-273.15],
 aux: true,
