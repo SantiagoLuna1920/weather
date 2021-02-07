@@ -9,13 +9,6 @@ export const Weather = () => {
         loading: true
     })
 
-    /* setTimeout(()=>{
-        setState({
-            data:[],
-            loading: false
-        })
-    },1200) */
-
 const [value, setValue] = useState([])
 const eather = () => { navigator.geolocation.getCurrentPosition(( { coords } ) => {
 return setTimeout(()=>{
